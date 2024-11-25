@@ -77,8 +77,10 @@ function colorTime(time) {
         return ((secondsEl.style.color = "gray"), `0${time}`);
         break;
         
+      case 0 :
+        return ((secondsEl.style.color = "gray"), `0${time}`);
+        break;
     }
-
   }
   else
   {
